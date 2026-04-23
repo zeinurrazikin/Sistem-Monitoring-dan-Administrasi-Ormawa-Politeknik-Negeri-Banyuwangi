@@ -25,7 +25,7 @@
                     <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-outline group-focus-within:text-primary transition-colors">
                         <span class="material-symbols-outlined text-[20px]">person</span>
                     </div>
-                    <input id="nim" name="nim" type="text" value="{{ old('nim') }}" required autofocus placeholder="Contoh: 362458302088"
+                    <input id="nim" name="nim" type="text" value="{{ old('nim') }}" required autofocus placeholder="Masukkan NIM"
                         class="block w-full pl-11 pr-4 py-3.5 bg-surface-container-low border border-outline-variant/30 rounded-lg focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all">
                 </div>
                 <x-input-error :messages="$errors->get('nim')" class="mt-2" />
